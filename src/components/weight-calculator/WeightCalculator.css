@@ -22,3 +22,29 @@
 .App-link {
   color: #61dafb;
 }
+
+span {
+    display: flex;
+}
+
+.selector-container {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+}
+
+.weight-selector {
+    height: 44px;
+    font-size: 16pt;
+    margin-left: 8px;
+}
+
+.weights-container {
+    font-size: calc(10px + 1.5vmin);
+}
+
+.asterisk {
+    padding: 8px;
+    font-size: 8pt;
+    justify-content: center;
+}

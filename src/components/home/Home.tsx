@@ -7,14 +7,17 @@ function Home() {
     return (
         <div className="App">
             <header className="App-header">
-                <img src={baseNeil} className="App-logo" alt="logo"/>
-                <span>
-                    Welcome to Neil's Gym... That's me, above.
+                <span className="home-text">
+                    Welcome to Neil's Gym!
                 </span>
+                <img src={baseNeil} className="neils-image" alt="logo"/>
                 <span>
-                    Workout with me and you'll look just as cool as I do!
+                    That's me, above.
                 </span>
-                <Link to="/calculator">Go to calculator!</Link>
+                <span className="home-text">
+                    Workout with me and you'll<br />look just as cool as I do!
+                </span>
+                <Link className="calculator-link" to="/calculator">I'm in! Take me to the weights calculator!</Link>
             </header>
         </div>
     );
