@@ -38,194 +38,215 @@ interface IWeightProps {
 
 type Weight =
     {
-        blackVinyl: number;
-        silverVinyl: number;
-        bronzeVinyl: number;
-        smallSilverVinyl: number;
-        blackMetal: number;
-        smallBlackMetal: number;
+        seventeenAndHalf: number;
+        fourteenAndHalf: number;
+        ten: number;
+        eight: number;
+        four: number;
+        five: number;
+        three: number;
         actualWeight: number;
     }
 
 const weights: Weights = {
     hundredFifty: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 2,
-        smallSilverVinyl: 1,
-        blackMetal: 2,
-        smallBlackMetal: 1,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 2,
+        eight: 0,
+        four: 1,
+        five: 2,
+        three: 1,
         actualWeight: 148.6
     },
     hundredFortyFive: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 2,
-        smallSilverVinyl: 1,
-        blackMetal: 2,
-        smallBlackMetal: 0,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 2,
+        eight: 0,
+        four: 1,
+        five: 2,
+        three: 0,
         actualWeight: 142.6
     },
     hundredForty: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 2,
-        smallSilverVinyl: 0,
-        blackMetal: 2,
-        smallBlackMetal: 1,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 2,
+        eight: 0,
+        four: 0,
+        five: 2,
+        three: 1,
         actualWeight: 139.8
     },
     hundredThirtyFive: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 2,
-        smallSilverVinyl: 0,
-        blackMetal: 2,
-        smallBlackMetal: 0,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 2,
+        eight: 0,
+        four: 0,
+        five: 2,
+        three: 0,
         actualWeight: 133.8
     },
     hundredThirty: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 2,
-        smallSilverVinyl: 0,
-        blackMetal: 1,
-        smallBlackMetal: 1,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 2,
+        eight: 0,
+        four: 0,
+        five: 1,
+        three: 1,
         actualWeight: 129.8
     },
     hundredTwentyFive: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 2,
-        smallSilverVinyl: 0,
-        blackMetal: 1,
-        smallBlackMetal: 0,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 2,
+        eight: 0,
+        four: 0,
+        five: 1,
+        three: 0,
         actualWeight: 123.8
     },
     hundredTwenty: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 2,
-        smallSilverVinyl: 0,
-        blackMetal: 0,
-        smallBlackMetal: 1,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 2,
+        eight: 0,
+        four: 0,
+        five: 0,
+        three: 1,
         actualWeight: 119.8
     },
     hundredFifteen: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 2,
-        smallSilverVinyl: 0,
-        blackMetal: 0,
-        smallBlackMetal: 0,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 2,
+        eight: 0,
+        four: 0,
+        five: 0,
+        three: 0,
         actualWeight: 113.8
     },
     hundredTen: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 1,
-        smallSilverVinyl: 0,
-        blackMetal: 1,
-        smallBlackMetal: 1,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 1,
+        eight: 0,
+        four: 0,
+        five: 1,
+        three: 1,
         actualWeight: 109.8
     },
     hundredFive: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 1,
-        smallSilverVinyl: 0,
-        blackMetal: 1,
-        smallBlackMetal: 0,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 1,
+        eight: 0,
+        four: 0,
+        five: 1,
+        three: 0,
         actualWeight: 103.8
     },
     hundred: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 1,
-        smallSilverVinyl: 0,
-        blackMetal: 0,
-        smallBlackMetal: 1,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 1,
+        eight: 0,
+        four: 0,
+        five: 0,
+        three: 1,
         actualWeight: 99.8
     },
     ninetyFive: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 1,
-        smallSilverVinyl: 0,
-        blackMetal: 0,
-        smallBlackMetal: 0,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 1,
+        eight: 0,
+        four: 0,
+        five: 0,
+        three: 0,
         actualWeight: 93.8
     },
     ninety: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 0,
-        smallSilverVinyl: 0,
-        blackMetal: 1,
-        smallBlackMetal: 1,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 0,
+        eight: 0,
+        four: 0,
+        five: 1,
+        three: 1,
         actualWeight: 89.8
     },
     eightyFive: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 0,
-        smallSilverVinyl: 0,
-        blackMetal: 1,
-        smallBlackMetal: 0,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 0,
+        eight: 0,
+        four: 0,
+        five: 1,
+        three: 0,
         actualWeight: 83.8
     },
     eighty: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 0,
-        smallSilverVinyl: 0,
-        blackMetal: 0,
-        smallBlackMetal: 1,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 0,
+        eight: 0,
+        four: 0,
+        five: 0,
+        three: 1,
         actualWeight: 79.8
     },
     seventyFive: {
-        blackVinyl: 1,
-        silverVinyl: 1,
-        bronzeVinyl: 0,
-        smallSilverVinyl: 0,
-        blackMetal: 0,
-        smallBlackMetal: 0,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 1,
+        ten: 0,
+        eight: 0,
+        four: 0,
+        five: 0,
+        three: 0,
         actualWeight: 73.8
     },
     seventy: {
-        blackVinyl: 1,
-        silverVinyl: 0,
-        bronzeVinyl: 0,
-        smallSilverVinyl: 1,
-        blackMetal: 1,
-        smallBlackMetal: 1,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 0,
+        ten: 0,
+        eight: 0,
+        four: 1,
+        five: 1,
+        three: 1,
         actualWeight: 70
     },
     sixtyFive: {
-        blackVinyl: 1,
-        silverVinyl: 0,
-        bronzeVinyl: 0,
-        smallSilverVinyl: 1,
-        blackMetal: 1,
-        smallBlackMetal: 0,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 0,
+        ten: 0,
+        eight: 0,
+        four: 1,
+        five: 1,
+        three: 0,
         actualWeight: 64
     },
     sixty: {
-        blackVinyl: 1,
-        silverVinyl: 0,
-        bronzeVinyl: 0,
-        smallSilverVinyl: 1,
-        blackMetal: 0,
-        smallBlackMetal: 1,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 0,
+        ten: 0,
+        eight: 0,
+        four: 1,
+        five: 0,
+        three: 1,
         actualWeight: 60
     },
     fiftyFive: {
-        blackVinyl: 1,
-        silverVinyl: 0,
-        bronzeVinyl: 0,
-        smallSilverVinyl: 0,
-        blackMetal: 1,
-        smallBlackMetal: 0,
+        seventeenAndHalf: 1,
+        fourteenAndHalf: 0,
+        ten: 0,
+        eight: 0,
+        four: 0,
+        five: 1,
+        three: 0,
         actualWeight: 55.2
     },
     // fifty: {
@@ -299,12 +320,16 @@ function WeightCounts({selectedWeight}: IWeightProps) {
         <div className="App">
             <div className="weights-container">
 
-                <div>Black Vinyl Count: {selectedWeight.blackVinyl}</div>
-                <div>Silver Vinyl Count: {selectedWeight.silverVinyl}</div>
-                <div>Bronze Vinyl Count: {selectedWeight.bronzeVinyl}</div>
-                <div>Small Silver Vinyl Count: {selectedWeight.smallSilverVinyl}</div>
-                <div>Black Metal Count: {selectedWeight.blackMetal}</div>
-                <div>Small Black Metal Count: {selectedWeight.smallBlackMetal}</div>
+                <table>
+                    <thead><td>Weight</td><td>Count</td></thead>
+                    <tr><td className="right-align">17.5 lbs (8 kg)</td><td>{selectedWeight.seventeenAndHalf}</td></tr>
+                    <tr><td className="right-align">14.5 lbs (6.5 kg)</td><td>{selectedWeight.fourteenAndHalf}</td></tr>
+                    <tr><td className="right-align">10 lbs (4.5 kg)</td><td>{selectedWeight.ten}</td></tr>
+                    <tr><td className="right-align">8 lbs (3.5 kg)</td><td>{selectedWeight.eight}</td></tr>
+                    <tr><td className="right-align">5 lbs</td><td>{selectedWeight.five}</td></tr>
+                    <tr><td className="right-align">4.4 lbs (2 kg)</td><td>{selectedWeight.four}</td></tr>
+                    <tr><td className="right-align">3 lbs</td><td>{selectedWeight.three}</td></tr>
+                </table>
 
                 <span className="asterisk">(the count is for one side of the bar)</span>
 
@@ -356,13 +381,6 @@ export default class WeightCalculator extends PureComponent {
                         <option value="sixtyFive">65 lbs</option>
                         <option value="sixty">60 lbs</option>
                         <option value="fiftyFive">55 lbs</option>
-                        <option value="fifty">50 lbs</option>
-                        <option value="fortyFive">45 lbs</option>
-                        <option value="forty">40 lbs</option>
-                        <option value="thirtyFive">35 lbs</option>
-                        <option value="thirty">30 lbs</option>
-                        <option value="twentyFive">25 lbs</option>
-                        <option value="twenty">20 lbs</option>
                     </select>
                     </span>
 
